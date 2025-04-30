@@ -13,6 +13,6 @@ public class MedicoController {
     @PostMapping
     public void registroMedico(@RequestBody DatosRegistroMedico datosRegistroMedico) {
 
-        System.out.println(datosRegistroMedico.direccion());
+        System.out.println(datosRegistroMedico);
     }
 }
